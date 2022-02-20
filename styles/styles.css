@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../img/bg.png');
+  font-family: "Comic Sans MS";
+  font-weight: 50px;
+}
+
+button {
+  background-color: rgba(97, 197, 97, 02);
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: green solid 1px;
+  color: black;
+  display: block;
+  float: right;
+  margin-right: 220px;
+  width: 120px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 15px;
+  font-size: 15px;
+}
+button:hover {
+  background-color: rgb(161, 250, 110);
+}
+#box {
+  display: block;
+  float: right;
+  margin-top: 25px;
+  margin-right: 130px;
+  border-radius: 50px;
+  background-color: aquamarine;
+  width: 555px;
+  height: 570px;
+  padding: 50px;
+  box-shadow: inset 15px 10px 20px rgb(52, 247, 140);
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+
+  font-size: 30px;
+}
+p {
+  margin-bottom: 45px;
+  font-size: 22px;
+  text-align: center;
+}
+img {
+  width: 380px;
+  height: 380px;
+  margin-left: 130px;
+  margin-right: 100px;
+  margin-top: 200px;
+}
